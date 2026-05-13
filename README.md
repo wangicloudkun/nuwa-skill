@@ -153,7 +153,7 @@ npx skills add alchaincyf/nuwa-skill
 
 ## 已蒸馏人物
 
-女娲已蒸馏了13位人物 + 1个主题。每个都是独立的、可直接安装使用的Skill：
+女娲已蒸馏了22位人物 + 1个主题。每个都是独立的、可直接安装使用的Skill：
 
 ### 人物Skill
 
@@ -172,6 +172,7 @@ npx skills add alchaincyf/nuwa-skill
 | **纳瓦尔** | 财富/杠杆/人生哲学 | [naval-skill](https://github.com/alchaincyf/naval-skill) | `npx skills add alchaincyf/naval-skill` |
 | **塔勒布** | 风险/反脆弱/不确定性 | [taleb-skill](https://github.com/alchaincyf/taleb-skill) | `npx skills add alchaincyf/taleb-skill` |
 | **张雪峰** | 教育/职业规划/阶层流动 | [zhangxuefeng-skill](https://github.com/alchaincyf/zhangxuefeng-skill) | `npx skills add alchaincyf/zhangxuefeng-skill` |
+| **张潇雨** | 生活/投资/自我认知/长期思维 | [zhangxiaoyu-skill](https://github.com/alchaincyf/zhangxiaoyu-skill) | `npx skills add alchaincyf/zhangxiaoyu-skill` |
 
 ### 主题Skill
 
@@ -209,21 +210,30 @@ nuwa-skill/
 ├── references/
 │   ├── extraction-framework.md   # 提炼方法论（想深入了解看这个）
 │   └── skill-template.md         # 生成Skill的模板
-└── examples/                          # 13个人物 + 1个主题，含完整调研数据
-    ├── steve-jobs-perspective/        # ⭐ 乔布斯（含实战对话记录）
-    ├── paul-graham-perspective/       # Paul Graham
-    ├── zhang-yiming-perspective/      # 张一鸣
+└── examples/                          # 22个人物 + 1个主题，含完整调研数据
+    ├── adler-perspective/             # 阿德勒
     ├── andrej-karpathy-perspective/   # Karpathy
-    ├── ilya-sutskever-perspective/    # Ilya Sutskever
-    ├── trump-perspective/             # 特朗普
-    ├── mrbeast-perspective/           # MrBeast
     ├── elon-musk-perspective/         # 马斯克
-    ├── munger-perspective/            # 查理·芒格
     ├── feynman-perspective/           # 费曼
+    ├── freud-perspective/             # 弗洛伊德
+    ├── ilya-sutskever-perspective/    # Ilya Sutskever
+    ├── jung-perspective/              # 荣格
+    ├── lacan-zizek-perspective/       # 拉康 × 齐泽克
+    ├── matthew-perry-perspective/     # 马修·派瑞
+    ├── mrbeast-perspective/           # MrBeast
+    ├── munger-perspective/            # 查理·芒格
     ├── naval-perspective/             # Naval Ravikant
+    ├── paul-graham-perspective/       # Paul Graham
+    ├── pontalis-perspective/          # 彭塔利斯
+    ├── steve-jobs-perspective/        # ⭐ 乔布斯（含实战对话记录）
+    ├── sun-yuchen-perspective/        # 孙宇晨
     ├── taleb-perspective/             # 塔勒布
+    ├── trump-perspective/             # 特朗普
+    ├── winnicott-perspective/         # 温尼科特
+    ├── zhang-yiming-perspective/      # 张一鸣
+    ├── zhangxiaoyu-perspective/       # 张潇雨
     ├── zhangxuefeng-perspective/      # 张雪峰
-    └── x-mastery-mentor/             # X导师（主题Skill）
+    └── x-mastery-mentor/              # X导师（主题Skill）
 ```
 
 调研过程全透明。每个example都包含完整的调研文件，你可以看到信息怎么被收集、筛选、变成心智模型。乔布斯的示例还附带了一段完整的实战对话记录（聊AI硬件、OpenAI vs Anthropic、Apple破局），展示Skill在多轮深度对话中的表现。
